@@ -1,0 +1,21 @@
+{
+    "name": "farseerliu/zhuangbi",
+    "description": "my new composer",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "farseer",
+            "email": "457579870@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    	"php":">=7.0.0"
+    },
+    "autoload":{
+	"psr-4":{
+	    "Zhuangbi\\Test\\":"src/Zhuangbi/Test"
+ 	}
+    }
+}
